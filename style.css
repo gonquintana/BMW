@@ -1,0 +1,249 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: Arial;
+    font-weight: 400;
+  }
+  .b-header {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-size: cover;
+    background-image: url(./assets/2023-BMW-X1-xDrive28i-09.jpeg)
+  }
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  .sections {
+    display: flex;
+    align-items: center;
+  }
+  .sections-nav {
+    color: #FFFFFF;
+    font-size: 14px;
+    display: block;
+    padding: 40px 20px;
+    text-decoration: none;
+}
+.icons {
+  display: flex;
+  align-content: space-between;
+  margin:2%;
+  align-items: center;
+}
+.icons-logo {
+  width: 100%;
+  height: 27px;
+}
+.bmw-logo {
+  width: 100%;
+  height: 65px;
+  margin: 3%;
+}
+.header-text {
+  position: absolute;
+  bottom: 26px;
+  left: 60px;
+  color: #FFFFFF;
+}
+.header-text-big {
+  margin: 10px;
+}
+.header-text-small {
+  margin: 10px;
+}
+.header-button {
+  background-color: #1c69d4;
+    padding: 16px;
+    margin-left: 8px;
+    min-width: 240px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 0;
+}
+.container-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.series {
+  color: darkgrey solid;
+  width: 100%;
+}
+.models {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  color: grey;
+}
+.galery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+}
+.galery-car-image {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  height: 100%;
+  margin: 10px; 
+}
+.galery-car-text {
+  margin-bottom: 50px;
+}
+.main-secondary {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-secondary-article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10%;
+  width: 250px;
+}
+.article-image {
+  width: 160px;
+  height: 100%;
+}
+
+/* insp */
+
+.cajasanuncios {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}.cajanuncios {
+  margin-top: 10%;
+  width: 250px;
+}
+.cajanuncios > img {
+  width: 100%;
+}
+.captionanuncios > h3 {
+  font-family: Arial;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.captionanuncios > p {
+  font-family: Arial; 
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+.captionanuncios > a {
+  font-family: Arial;
+  line-height: 0px;
+  text-decoration: none;
+  color: black;
+}
+.botones {
+  margin-top: 8%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cajaboton {
+  background-color: lightgray;
+  width: 300px;
+  height: 120px;
+  text-align: center;
+}
+.cajaboton > img {
+  width: 10%;
+  align-items: center;
+  margin-top: 10%;
+}
+.cajaboton > a {
+  font-family: Arial;
+  color: grey;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cajaboton > a:hover {
+  color: gray;
+}
+.fondo {
+  width: 100%;
+  height: 400px;
+  margin-top: 6%;
+  background-color: lightgray;
+}
+.columnas {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 85%;
+  height: 45%;
+  margin-left: 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.columna {
+  margin-top: 9%;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+
+}
+.columna > h2 {
+  font-family: Arial;
+  font-size: 16px;
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+.columna > ul {
+  list-style-type: none;
+}
+.columna > ul > a {
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: darkgrey;
+}
+.columna > ul > a:hover {
+  color: gray;
+}
